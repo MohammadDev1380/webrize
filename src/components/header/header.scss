@@ -1,0 +1,32 @@
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px;
+    //
+    transition: all 200ms ease;
+    opacity: 0;
+    top: 5px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            background-color: #000;
+        }
+        ul {
+            display: flex;
+            li {
+                margin-inline-end: 36px;
+                font-size: 18px;
+            }
+        }
+    }
+    &.active {
+        opacity: 1;
+        top: 0;
+        background-color: #0000ff86;
+    }
+}

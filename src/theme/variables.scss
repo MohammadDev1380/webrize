@@ -1,0 +1,137 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+:root {
+    /*
+	 * Custom Colors
+	 * -------------------------------------------
+     *  root theme => dark
+	 */
+    /** primary **/
+    --color-primary: #61077b;
+    /** secondary **/
+    --color-secondary: #1a1a1a;
+    /** tertiary **/
+    /** success **/
+    --color-success: #02d672;
+    /** warning **/
+    --color-warning: #02d672;
+    /** danger **/
+    --color-danger: #dc3545;
+    /** dark **/
+    /** medium **/
+    /** light **/
+    --color-light: #e1ffff;
+    //
+    --app-bg-color: var(--color-secondary);
+    //
+    --movePercent: 0%;
+}
+
+@media (prefers-color-scheme: light) {
+    /*
+	 * Light Colors
+	 * -------------------------------------------
+	 */
+    body {
+        /*
+        * Custom Colors
+        * -------------------------------------------
+        */
+        /** primary **/
+        --color-primary: #61077b;
+        /** secondary **/
+        // --color-secondary: #e1ffff;
+        --color-secondary: #1a1a1a;
+        /** success **/
+        --color-success: #02d672;
+        /** warning **/
+        --color-warning: #02d672;
+        /** danger **/
+        --color-danger: #dc3545;
+        /** dark **/
+        /** light **/
+        --color-light: #e1ffff;
+        //
+        --app-bg-color: var(--color-secondary);
+        //-----------//
+        --background-color: #e4e1e2;
+        --background-color-rgb: 228, 225, 226;
+        --text-color: #17233c;
+        --text-color-rgb: 23, 35, 60;
+        // --border-color: #222222;
+        --color-step-50: #dad8da;
+        --color-step-100: #d0ced1;
+        --color-step-150: #c5c5c9;
+        --color-step-200: #bbbbc1;
+        --color-step-250: #b1b2b9;
+        --color-step-300: #a7a8b0;
+        --color-step-350: #9c9fa8;
+        --color-step-400: #9295a0;
+        --color-step-450: #888c97;
+        --color-step-500: #7e828f;
+        --color-step-550: #737887;
+        --color-step-600: #696f7e;
+        --color-step-650: #5f6676;
+        --color-step-700: #555c6e;
+        --color-step-750: #4a5366;
+        --color-step-800: #40495d;
+        --color-step-850: #364055;
+        --color-step-900: #2b364d;
+        --color-step-950: #212d44;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /*
+    * Dark Colors
+    * -------------------------------------------
+    */
+    body {
+        /*
+        * Custom Colors
+        * -------------------------------------------
+        */
+        /** primary **/
+        --color-primary: #61077b;
+        /** secondary **/
+        --color-secondary: #1a1a1a;
+        /** tertiary **/
+        /** success **/
+        --color-success: #02d672;
+        /** warning **/
+        --color-warning: #02d672;
+        /** danger **/
+        --color-danger: #dc3545;
+        /** dark **/
+        /** medium **/
+        /** light **/
+        --color-light: #e1ffff;
+        //
+        --app-bg-color: var(--color-secondary);
+        //-----------//
+        --background-color: #17233c;
+        --background-color-rgb: 23, 35, 60;
+        --text-color: #e4e1e2;
+        --text-color-rgb: 228, 225, 226;
+        --color-step-50: #212d44;
+        --color-step-100: #2c364d;
+        --color-step-150: #364055;
+        --color-step-200: #40495d;
+        --color-step-250: #4a5366;
+        --color-step-300: #545c6e;
+        --color-step-350: #5f6676;
+        --color-step-400: #696f7e;
+        --color-step-450: #737987;
+        --color-step-500: #7e828f;
+        --color-step-550: #888c97;
+        --color-step-600: #9295a0;
+        --color-step-650: #9c9fa8;
+        --color-step-700: #a7a8b0;
+        --color-step-750: #b1b2b9;
+        --color-step-800: #bbbbc1;
+        --color-step-850: #c5c5c9;
+        --color-step-900: #d0ced1;
+        --color-step-950: #dad8da;
+    }
+}

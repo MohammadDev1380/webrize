@@ -1,0 +1,28 @@
+/*
+    Project layout
+*/
+
+body {
+    margin: 0;
+    font-family: "IRANSans", "Vazir", "tahoma", "Ubuntu";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    &:hover {
+        color: unset;
+    }
+}

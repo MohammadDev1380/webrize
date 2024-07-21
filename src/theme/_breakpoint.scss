@@ -1,0 +1,61 @@
+@mixin brPoint($point) {
+	@if $point==sm-up {
+		@media (min-width: 576px) {
+			@content;
+		}
+	}
+
+	@else if $point==sm-down {
+		@media (max-width: 576px) {
+			@content;
+		}
+	}
+
+	@else if $point==md-up {
+		@media (min-width: 768px) {
+			@content;
+		}
+	}
+
+	@else if $point==md-down {
+		@media (max-width: 768px) {
+			@content;
+		}
+	}
+
+	@else if $point==lg-up {
+		@media (min-width: 992px) {
+			@content;
+		}
+	}
+
+	@else if $point==lg-down {
+		@media (max-width: 992px) {
+			@content;
+		}
+	}
+
+	@else if $point==xl-up {
+		@media (min-width: 1200px) {
+			@content;
+		}
+	}
+
+	@else if $point==xl-down {
+		@media (max-width: 1200px) {
+			@content;
+		}
+	}
+
+	@else if $point==xxl-up {
+		@media (min-width: 1400px) {
+			@content;
+		}
+	}
+
+	@else if $point==xxl-down {
+		@media (max-width: 1400px) {
+			@content;
+		}
+	}
+}

@@ -1,0 +1,95 @@
+/*
+    this file is connected to every HTML files
+*/
+
+.box-shadow {
+}
+
+.glassy {
+}
+
+.floating-input {
+    width: 50%;
+    @include brPoint(lg-down) {
+        width: 60%;
+    }
+    label {
+        position: absolute;
+        z-index: 0;
+        color: var(--color-dark);
+        font-size: initial;
+        margin-top: -38px;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: text;
+        margin-left: 0;
+        display: block;
+    }
+    input {
+        border: none;
+        border-bottom: 1px solid var(--color-secondary);
+        outline: none;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 18px;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: transparent;
+        //
+        position: relative;
+        z-index: 1;
+        &:valid {
+            &:focus {
+                border-bottom: 1px solid var(--color-success);
+            }
+            & + label {
+                margin-top: -53px;
+                font-size: 12px;
+            }
+        }
+        &:focus {
+            border-bottom: 1px solid var(--color-primary);
+            box-shadow: 0px 1px 0px 0px var(--color-primary);
+            & + label {
+                margin-top: -53px !important;
+                color: var(--color-primary) !important;
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    h2 {
+        white-space: nowrap;
+        &.not-start {
+            background-color: #fff;
+            padding: 0 21px;
+            position: absolute;
+        }
+    }
+    hr {
+        border: 2px solid #000;
+        flex-grow: 1;
+        margin: 0 35px;
+        border-radius: 50%;
+        position: relative;
+        z-index: -1;
+    }
+}
+
+.validation-text {
+}
+
+.page-title {
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+}
