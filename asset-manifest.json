@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webrize/static/css/main.e4b7e06e.css",
-    "main.js": "/webrize/static/js/main.fabdce8d.js",
+    "main.js": "/webrize/static/js/main.a13e898a.js",
     "static/media/Me (2).jpg": "/webrize/static/media/Me (2).9db1702cdf481b840d80.jpg",
     "static/media/moon-stars-purple-1920x1080-11331.jpg": "/webrize/static/media/moon-stars-purple-1920x1080-11331.dd299f5cdf4a0a417941.jpg",
     "static/media/mosaddad.jpg": "/webrize/static/media/mosaddad.404b17a0634938e0b515.jpg",
@@ -16,10 +16,10 @@
     "index.html": "/webrize/index.html",
     "static/media/hexagon-svgrepo-com.svg": "/webrize/static/media/hexagon-svgrepo-com.a22facdc3fa20a1abd33a7199ea15270.svg",
     "main.e4b7e06e.css.map": "/webrize/static/css/main.e4b7e06e.css.map",
-    "main.fabdce8d.js.map": "/webrize/static/js/main.fabdce8d.js.map"
+    "main.a13e898a.js.map": "/webrize/static/js/main.a13e898a.js.map"
   },
   "entrypoints": [
     "static/css/main.e4b7e06e.css",
-    "static/js/main.fabdce8d.js"
+    "static/js/main.a13e898a.js"
   ]
 }
