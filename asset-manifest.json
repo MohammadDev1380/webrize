@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/webrise/static/css/main.e50e953b.css",
+    "main.js": "/webrise/static/js/main.e72a17b0.js",
+    "static/media/Me (2).jpg": "/webrise/static/media/Me (2).9db1702cdf481b840d80.jpg",
+    "static/media/moon-stars-purple-1920x1080-11331.jpg": "/webrise/static/media/moon-stars-purple-1920x1080-11331.dd299f5cdf4a0a417941.jpg",
+    "static/media/mosaddad.jpg": "/webrise/static/media/mosaddad.404b17a0634938e0b515.jpg",
+    "static/media/8795627.jpg": "/webrise/static/media/8795627.e9e23847bf7488423448.jpg",
+    "static/media/erfan.jpg": "/webrise/static/media/erfan.330053500535576c9801.jpg",
+    "static/media/soroush.jpg": "/webrise/static/media/soroush.df2955c25dfbbb5aae24.jpg",
+    "static/media/athena.jpg": "/webrise/static/media/athena.a84a0d188b7af7cad499.jpg",
+    "static/media/8795638.jpg": "/webrise/static/media/8795638.5d4f99458a13b2141c77.jpg",
+    "static/media/golzard.jpg": "/webrise/static/media/golzard.36592c24ba404f121563.jpg",
+    "static/media/tailwind.jpg": "/webrise/static/media/tailwind.9ec2199f68c0aee14962.jpg",
+    "static/media/greensock.svg": "/webrise/static/media/greensock.dff87e2debbe5d37479732018b2a575a.svg",
+    "index.html": "/webrise/index.html",
+    "static/media/hexagon-svgrepo-com.svg": "/webrise/static/media/hexagon-svgrepo-com.a22facdc3fa20a1abd33a7199ea15270.svg",
+    "main.e50e953b.css.map": "/webrise/static/css/main.e50e953b.css.map",
+    "main.e72a17b0.js.map": "/webrise/static/js/main.e72a17b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e50e953b.css",
+    "static/js/main.e72a17b0.js"
+  ]
+}

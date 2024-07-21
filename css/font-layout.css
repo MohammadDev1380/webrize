@@ -1,0 +1,83 @@
+/* font face at-rule */
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff2') format('woff2'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 100;
+    src: url('/assets/fonts/iransans/IRANSansWeb_UltraLight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('/assets/fonts/iransans/IRANSansWeb_Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('/assets/fonts/iransans/IRANSansWeb.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/iransans/IRANSansWeb.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/iransans/IRANSansWeb.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/assets/fonts/iransans/IRANSansWeb.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/iransans/IRANSansWeb_Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/iransans/IRANSansWeb_Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('/assets/fonts/iransans/IRANSansWeb_Black.otf') format("opentype");
+}
+/*  */
+
+@font-face {
+    font-family: CINEMA;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/assets/fonts/Cinema-Full.otf') format("opentype");
+}
